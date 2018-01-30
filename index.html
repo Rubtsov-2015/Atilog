@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Atilog Test Rubtsov</title>
+		<link rel="stylesheet" href="css/fontello.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<!--[if IE]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav id="nav_main" class="active">
+				<div class="burger_menu"><span></span></div>
+				<ul>
+					<li><a href="#"><i class="icon-home"></i><span>Главная</span></a></li>
+					<li><a href="#"><i class="icon-user"></i><span>Клиенты</span></a></li>
+					<li><a href="#"><i class="icon-address-book"></i><span>Сотрудники</span></a></li>
+					<li><a href="#"><i class="icon-money"></i><span>Касса</span></a></li>
+					<li><a href="#"><i class="icon-cog"></i><span>Настройки</span></a></li>
+					<li><a href="#"><i class="icon-home-1"></i><span>Склад</span></a></li>
+				</ul>
+				<a href="#" class="add"><i class="icon-plus"></i><span>Добавить</span></a>
+				<a href="#" class="lang"><i class="icon-globe"></i></a>
+			</nav>
+			<main>
+				<div class="status_bar">
+					<form class="search_form">
+						<div class="search_block">
+							<input type="text" placeholder="Поиск">
+							<div class="searches_section_block">
+								<span>Клиенты</span>
+								<ul>
+									<li>Клиенты1</li>
+									<li>Клиенты2</li>
+									<li>Клиенты3</li>
+								</ul>
+							</div>
+						</div>
+						<input type="submit" value="Поиск">
+					</form>
+					<div class="profile_holder">
+						<a href="#" class="notifications">
+							<i class="icon-bell-alt"></i><span class="count">4</span>
+						</a>
+						<div class="user">
+							<a href="#">Den postika</a>
+						</div>
+					</div>
+				</div>
+				<div class="content_wrapper">
+					<div class="content_navbar_wrapper">
+						<h1>Касса</h1>
+						<form class="actions_bar_holder">
+							<span>Дата:</span>
+							<input type="text" placeholder="11.11.2016" class="statistics_date">
+							<a href="#" class="prev_next_btn prev_btn">предыдущая</a>
+							<a href="#" class="prev_next_btn next_btn">следующая</a>
+							<div class="actions_list_holder">
+								<span>Действие</span>
+							</div>
+							<a href="#" class="action_btn create_action_btn">Создать к\о</a>
+							<a href="#" class="action_btn close_action_btn">закрыть кассу</a>
+						</form>
+					</div>
+					<ul class="general_statistic_list">
+						<li class="positive">
+							<p>Приход</p>
+							<div class="count">18 100</div>
+						</li>
+						<li class="negative">
+							<p>Расход</p>
+							<div class="count">10 000</div>
+						</li>
+						<li>
+							<p>Баланс</p>
+							<div class="count">11 200 (1 000)</div>
+							<div class="tooltip_info">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor consequatur sapiente aperiam doloremque maxime repudiandae ipsa dolore laboriosam repellendus reprehenderit, quo minus consectetur, labore harum accusantium distinctio deleniti nemo odit!</p>
+							</div>
+						</li>
+						<li class="positive">
+							<p>Прибыль</p>
+							<div class="count">4 000</div>
+						</li>
+					</ul>
+					<div class="statistic_table_wrapper">
+						<table class="statistic_table">
+							<thead>
+								<tr>
+									<th>Время</th>
+									<th>Действие</th>
+									<th>id</th>
+									<th>Имущество\описание</th>
+									<th>Приход</th>
+									<th>Расход</th>
+									<th>Доход</th>
+									<th>Сотрудник</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										11.11.2016, 16:18
+										<div class="statistic_table_block">
+											<span>залог</span>
+											<span>id - 12434</span>
+										</div>
+									</td>
+									<td>залог</td>
+									<td>12434</td>
+									<td>Телефон</td>
+									<td class="positive">&nbsp;</td>
+									<td class="negative">1000</td>
+									<td class="positive">0</td>
+									<td>Денис Постыка</td>
+								</tr>
+								<tr>
+									<td>
+										11.11.2016, 12.14
+										<div class="statistic_table_block">
+											<span>покупка</span>
+											<span>id - 3434</span>
+										</div>
+									</td>
+									<td>покупка</td>
+									<td>3434</td>
+									<td>монитор</td>
+									<td class="positive">&nbsp;</td>
+									<td class="negative">800</td>
+									<td class="positive">0</td>
+									<td>Денис Постыка</td>
+								</tr>
+								<tr>
+									<td>
+										10.11.2016, 10.13
+										<div class="statistic_table_block">
+											<span>продление</span>
+											<span>id - 4324324</span>
+										</div>
+									</td>
+									<td>продление</td>
+									<td>4324324</td>
+									<td>золотой батон</td>
+									<td class="positive">&nbsp;</td>
+									<td class="negative">3544</td>
+									<td class="positive">0</td>
+									<td>Денис Постыка</td>
+								</tr>
+								<tr>
+									<td>
+										09.11.2016, 9.02
+										<div class="statistic_table_block">
+											<span>к\о приход</span>
+											<span>id - 3423432</span>
+										</div>
+									</td>
+									<td>к\о приход</td>
+									<td>3423432</td>
+									<td>пополнение кассы</td>
+									<td class="positive">233</td>
+									<td class="negative">&nbsp;</td>
+									<td class="positive">0</td>
+									<td>Денис Постыка</td>
+								</tr>
+								<tr>
+									<td>
+										04.11.2016, 10.12
+										<div class="statistic_table_block">
+											<span>Продажа</span>
+											<span>id - 42343</span>
+										</div>
+									</td>
+									<td>Продажа</td>
+									<td>42343</td>
+									<td>диван</td>
+									<td class="positive">545</td>
+									<td class="negative">&nbsp;</td>
+									<td class="positive">545</td>
+									<td>Денис Постыка</td>
+								</tr>
+								<tr>
+									<td>
+										02.11.2016, 19.20
+										<div class="statistic_table_block">
+											<span>покупка</span>
+											<span>id - 42343</span>
+										</div>
+									</td>
+									<td>покупка</td>
+									<td>42343</td>
+									<td>карандаш</td>
+									<td class="positive">&nbsp;</td>
+									<td class="negative">4545</td>
+									<td class="positive">0</td>
+									<td>Денис Постыка</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+@media screen and (max-width: 1400px){
+	.general_statistic_list li{
+		padding: 27px 10px;
+	}
+}
+@media screen and (max-width: 1340px){
+	.general_statistic_list{
+		text-align: center;
+	}
+	.general_statistic_list li p{
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.general_statistic_list li .count{
+		font-size: 28px;
+		line-height: 32px;
+	}
+}
+@media screen and (max-width: 1279px){
+	.statistic_table_block{
+		display: block;
+	}
+	.statistic_table th:nth-child(2),
+	.statistic_table td:nth-child(2),
+	.statistic_table th:nth-child(3),
+	.statistic_table td:nth-child(3){
+		display: none;
+	}
+}
+@media screen and (max-width: 1200px){
+	.statistic_table td,
+	.statistic_table th{
+		padding: 15px 10px;
+	}
+	.general_statistic_list li{
+		width: 50%;
+	}
+	.general_statistic_list li:nth-child(2n):before{
+		display: none;
+	}
+}
+@media screen and (max-width: 1150px){
+	.actions_bar_holder{
+		float: none;
+		text-align: center;
+	}
+	.actions_bar_holder>span,
+	.actions_bar_holder>input,
+	.prev_next_btn,
+	.actions_list_holder,
+	.action_btn{
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.statistic_table_wrapper{
+		overflow: auto;
+	}
+	.statistic_table{
+		width: 800px;
+	}
+	.status_bar{
+		padding: 13px 20px 15px;
+	}
+	.profile_holder .notifications{
+		margin: 0 10px 0 0;
+	}
+	.search_form .search_block>input{
+		width: 220px;
+	}
+}
